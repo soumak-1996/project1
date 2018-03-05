@@ -1,0 +1,18 @@
+class Name
+  
+  def initialize(first,middle,last)
+    @first_name = first
+    @middle_name = middle
+    @last_name = last
+  end
+  
+
+   def has_middle
+
+  !!@middle_name
+  end
+end
+    name1 = Name.new("Soumak","Dutta")
+   puts name1.has_middle
+
+
